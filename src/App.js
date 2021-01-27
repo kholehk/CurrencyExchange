@@ -7,7 +7,7 @@ import Currency from './Currency/Currency';
 import ExchangeList from './Exchange/ExchangeList';
 
 function App() {
-  const [currency, setCurrency] = React.useState('');
+  const [currency, setCurrency] = React.useState({});
   const [exchange, setExchange] = React.useState([]);
   const [loading, setLoading] = React.useState(true);
   
@@ -26,7 +26,7 @@ function App() {
       .then(response => {
         setTimeout(() => setLoading(false), 2000);
         
-        setCurrency(response.base);
+        setCurrency(response);
         setExchange(
           Object.keys(response.rates).map(key => ({ curr: key, exch: response.rates[key] }))
         );
