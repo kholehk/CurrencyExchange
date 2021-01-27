@@ -9,7 +9,7 @@ export default function ExchangeList({exchange}) {
       <ul className='exchange_list'>
          {
             exchange.map(item => {
-               return (<ExchangeItem item = { item }  />)
+               return (<ExchangeItem item={item} key={item.curr} />)
             })
          }
       </ul>
