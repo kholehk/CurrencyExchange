@@ -1,0 +1,21 @@
+.exchange_list {
+   list-style: none;
+   margin: 0;
+   /* padding: 0; */
+   display: flex;
+   flex-flow: row wrap;
+   max-height: 60vh;
+   overflow-y: scroll;
+   text-align: start;
+}
+
+.exchange_list_item {
+   padding-bottom: .5rem;
+   width: calc(100%/4);
+}
+
+@media (max-width: 720px){
+   .exchange_list_item{
+      width: calc(100%/2);
+   }
+}
