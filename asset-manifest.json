@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/CurrencyExchange/static/css/main.f0db6dd0.chunk.css",
+    "main.js": "/CurrencyExchange/static/js/main.5125ad39.chunk.js",
+    "main.js.map": "/CurrencyExchange/static/js/main.5125ad39.chunk.js.map",
+    "runtime-main.js": "/CurrencyExchange/static/js/runtime-main.e59c5a00.js",
+    "runtime-main.js.map": "/CurrencyExchange/static/js/runtime-main.e59c5a00.js.map",
+    "static/js/2.275572c7.chunk.js": "/CurrencyExchange/static/js/2.275572c7.chunk.js",
+    "static/js/2.275572c7.chunk.js.map": "/CurrencyExchange/static/js/2.275572c7.chunk.js.map",
+    "static/js/3.c6817d11.chunk.js": "/CurrencyExchange/static/js/3.c6817d11.chunk.js",
+    "static/js/3.c6817d11.chunk.js.map": "/CurrencyExchange/static/js/3.c6817d11.chunk.js.map",
+    "index.html": "/CurrencyExchange/index.html",
+    "static/css/main.f0db6dd0.chunk.css.map": "/CurrencyExchange/static/css/main.f0db6dd0.chunk.css.map",
+    "static/js/2.275572c7.chunk.js.LICENSE.txt": "/CurrencyExchange/static/js/2.275572c7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e59c5a00.js",
+    "static/js/2.275572c7.chunk.js",
+    "static/css/main.f0db6dd0.chunk.css",
+    "static/js/main.5125ad39.chunk.js"
+  ]
+}
